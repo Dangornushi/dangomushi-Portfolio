@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/dangomushi-Portfolio/static/css/main.84fd5847.css",
-    "main.js": "/dangomushi-Portfolio/static/js/main.45e5fd62.js",
+    "main.js": "/dangomushi-Portfolio/static/js/main.a28cf548.js",
     "static/js/787.b94a327f.chunk.js": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js",
     "static/media/Dangomushi_icon.png": "/dangomushi-Portfolio/static/media/Dangomushi_icon.33b5a0a5f881f5291e48.png",
     "index.html": "/dangomushi-Portfolio/index.html",
     "main.84fd5847.css.map": "/dangomushi-Portfolio/static/css/main.84fd5847.css.map",
-    "main.45e5fd62.js.map": "/dangomushi-Portfolio/static/js/main.45e5fd62.js.map",
+    "main.a28cf548.js.map": "/dangomushi-Portfolio/static/js/main.a28cf548.js.map",
     "787.b94a327f.chunk.js.map": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84fd5847.css",
-    "static/js/main.45e5fd62.js"
+    "static/js/main.a28cf548.js"
   ]
 }
