@@ -14,24 +14,31 @@ code {
 }
 
 .Icon-img {
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 	object-fit:cover;
 	border-radius:50%;
 	object-position:0px 0px;
 }
 
-.Title {
-  background-color:rgb(40, 44, 52);
-  color: rgb(215, 222, 233);
+.Work-img {
+	height:150px;
+	border-radius:10px;
 }
 
-.SelfIntroduction {
-  color: rgb(215, 222, 233);
+.Title {
+  font-family: Quicksand;
+  color: rgb(117, 255, 37);
 }
+
+.Work {
+	white-space: pre-wrap;
+	color: rgb(215, 222, 233);
+}
+
 .circle {
-	width: 10px;
-	height: 10px;
+	width: 5px;
+	height: 5px;
 	background: #7fffbf;
 	border-radius: 50%;
 	animation: purupuru_anim 1.5s infinite;

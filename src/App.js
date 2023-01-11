@@ -1,61 +1,109 @@
 import './App.css';
-import './Header.jsx'
-import Header from './Header.jsx';
+import React from 'react';
+import { useInView } from 'react-intersection-observer';
+import 'animate.css';
+import 'typeface-quicksand'
 import {
   Container,
   Box,
-  useColorModeValue,
   Center,
+  Flex,
+  Heading,
+  VStack,
+  HStack,
 } from '@chakra-ui/react'
+import Img from './assets/images/Dangomushi_icon.png'
+import SchwarzImg from './assets/images/schwarz.png'
 
-import { useInView } from 'react-intersection-observer';
-import 'animate.css';
+function Icon() {
+  return (
+    <VStack>
+      <img
+        src={Img}
+        alt="image"
+        className='Icon-img'
+        align="center"
+      />
+      <Box className="Title">
+        <Heading as="h2" variant="page-title">
+          Dangomushi
+        </Heading>
+      </Box>
+    </VStack>
+
+  )
+
+}
+
+function CssLink() {
+  return (
+    <div>
+      <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css" />
+      <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-1-4/css/9-1-4.css" />
+    </div>
+  )
+}
+
+const Work = ({ children }) => {
+  return (
+    <p className="Work">{children}</p>
+  );
+}
 
 function App() {
+  const h = window.parent.screen.height;
   const { ref, inView } = useInView({
     // オプション
-    rootMargin: '-150px', // ref要素が現れてから50px過ぎたら
+    rootMargin: '-50px',
   });
+  const workText = `
+Language: Japanese, English, Russian
+Programing: OS, Compiler, Trancepiler, CLI Editor
+`
   return (
     <div className='App'>
-      <header className='App-header'>
-        <Header />
-      </header>
-      <Center w="full" h="full">
-        <Box></Box>
-        <div class="circle"></div>
+      <CssLink />
+      <Flex h={h - 200} justify='center' align='center' >
+        <Icon />
+      </Flex>
+      <Center align='center'>
+        <VStack>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </VStack>
       </Center>
-      <Container>
-        <Center w="full" h="full">
-          <div ref={ref} style={{ height: '200px' }}>
-            {inView && (
-              <div className="Title">
-                <div className="animate__animated animate__fadeInUp" >
-                  <h2>
-                    Hello, I&apos;m an indie app developer based in Japan!
-                  </h2>
-                  <Center w="full" h="full">
-                    <Box w="400px" h="400px">
-                      <h3>
-                        Hello
-                      </h3>
-                      <p>
-                        Hello, I&apos;m an indie app developer based in Japan!
-                        Hello, I&apos;m an indie app developer based in Japan!
-                        Hello, I&apos;m an indie app developer based in Japan!
-                        Hello, I&apos;m an indie app developer based in Japan!
-                        Hello, I&apos;m an indie app developer based in Japan!
-                      </p>
-                    </Box>
-                  </Center>
-                </div>
+
+      <Flex h={h} justify='center' align='center' >
+        <div ref={ref} >
+          {inView && (
+            <div className="Title">
+              <div className="animate__animated animate__fadeInUp" >
+                <Center w="full" h="full">
+                  <Box align="left">
+                    <h3>
+                      Skils
+                    </h3>
+                    <img
+                      src={SchwarzImg}
+                      alt="image"
+                      className='Work-img'
+                      align="center"
+                    />
+                    <Work>{workText}</Work>
+                  </Box>
+                </Center>
               </div>
-            )}
-          </div>
-        </Center>
-      </Container>
+            </div>
+          )}
+        </div>
+      </Flex>
     </div>
   );
 }
 
 export default App;
+
+/*
+      */
+
