@@ -81,7 +81,7 @@ Programing: OS, Compiler, Trancepiler, CLI Editor
               <div className="animate__animated animate__fadeInUp" >
                 <Center w="full" h="full">
                   <Box align="left">
-                    <h3>
+                    <h3 className="Work">
                       Skils
                     </h3>
                     <img

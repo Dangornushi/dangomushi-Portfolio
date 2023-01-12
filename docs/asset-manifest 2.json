@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/dangomushi-Portfolio/static/css/main.71db6035.css",
+    "main.js": "/dangomushi-Portfolio/static/js/main.2de37228.js",
+    "static/js/787.b94a327f.chunk.js": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js",
+    "static/media/schwarz.png": "/dangomushi-Portfolio/static/media/schwarz.55fa9e21a39260a68bf9.png",
+    "static/media/quicksand-latin-600.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
+    "static/media/quicksand-latin-500.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
+    "static/media/quicksand-latin-400.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
+    "static/media/quicksand-latin-300.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-300.c7342fbf45ae28f68801.woff",
+    "static/media/quicksand-latin-700.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-700.82849a6e9f5978535d52.woff",
+    "static/media/Dangomushi_icon.png": "/dangomushi-Portfolio/static/media/Dangomushi_icon.33b5a0a5f881f5291e48.png",
+    "static/media/quicksand-latin-600.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-600.07a3480d288293229838.woff2",
+    "static/media/quicksand-latin-400.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-400.4632f3d10356442aa7a6.woff2",
+    "static/media/quicksand-latin-500.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
+    "static/media/quicksand-latin-700.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
+    "static/media/quicksand-latin-300.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
+    "index.html": "/dangomushi-Portfolio/index.html",
+    "main.71db6035.css.map": "/dangomushi-Portfolio/static/css/main.71db6035.css.map",
+    "main.2de37228.js.map": "/dangomushi-Portfolio/static/js/main.2de37228.js.map",
+    "787.b94a327f.chunk.js.map": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71db6035.css",
+    "static/js/main.2de37228.js"
+  ]
+}
