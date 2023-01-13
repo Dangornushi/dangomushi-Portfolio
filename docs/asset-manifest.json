@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dangomushi-Portfolio/static/css/main.71db6035.css",
-    "main.js": "/dangomushi-Portfolio/static/js/main.fa0c1a58.js",
+    "main.css": "/dangomushi-Portfolio/static/css/main.31ff1d6e.css",
+    "main.js": "/dangomushi-Portfolio/static/js/main.6ef2d9ea.js",
     "static/js/787.b94a327f.chunk.js": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js",
     "static/media/schwarz.png": "/dangomushi-Portfolio/static/media/schwarz.55fa9e21a39260a68bf9.png",
     "static/media/quicksand-latin-600.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
@@ -16,12 +16,12 @@
     "static/media/quicksand-latin-700.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
     "static/media/quicksand-latin-300.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
     "index.html": "/dangomushi-Portfolio/index.html",
-    "main.71db6035.css.map": "/dangomushi-Portfolio/static/css/main.71db6035.css.map",
-    "main.fa0c1a58.js.map": "/dangomushi-Portfolio/static/js/main.fa0c1a58.js.map",
+    "main.31ff1d6e.css.map": "/dangomushi-Portfolio/static/css/main.31ff1d6e.css.map",
+    "main.6ef2d9ea.js.map": "/dangomushi-Portfolio/static/js/main.6ef2d9ea.js.map",
     "787.b94a327f.chunk.js.map": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71db6035.css",
-    "static/js/main.fa0c1a58.js"
+    "static/css/main.31ff1d6e.css",
+    "static/js/main.6ef2d9ea.js"
   ]
 }

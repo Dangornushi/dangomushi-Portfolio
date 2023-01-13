@@ -26,14 +26,14 @@ code {
 	border-radius:10px;
 }
 
-.Title {
-  font-family: Quicksand;
-  color: rgb(117, 255, 37);
-}
-
 .Work {
 	white-space: pre-wrap;
 	color: rgb(215, 222, 233);
+}
+
+.Title {
+  font-family: Quicksand;
+  color: rgb(117, 255, 37);
 }
 
 .circle {

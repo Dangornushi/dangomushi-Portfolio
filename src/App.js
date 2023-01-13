@@ -58,7 +58,7 @@ function App() {
   });
   const workText = `
 Language: Japanese, English, Russian
-Programing: OS, Compiler, Trancepiler, CLI Editor
+Programing: OS, Compiler, Transpiler, CLI Editor
 `
   return (
     <div className='App'>
@@ -81,9 +81,9 @@ Programing: OS, Compiler, Trancepiler, CLI Editor
               <div className="animate__animated animate__fadeInUp" >
                 <Center w="full" h="full">
                   <Box align="left">
-                    <h3 className="Work">
-                      Skils
-                    </h3>
+                    <h2 className="Work">
+                      Works
+                    </h2>
                     <img
                       src={SchwarzImg}
                       alt="image"
