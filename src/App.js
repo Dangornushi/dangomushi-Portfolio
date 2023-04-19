@@ -60,6 +60,14 @@ function App() {
 Language: Japanese, English, Russian
 Programing: OS, Compiler, Transpiler, CLI Editor
 `
+  const jikosyoukai = `
+限りなく東京に近い埼玉に在住の年齢・職業不詳の謎の生き物。
+二度寝と自作コンパイラに目がない。日本語と平日が苦手。
+「かっこいいから」という理由でプログラミングを始めるも
+やめられなくなり現在に至る。
+
+以後お見知り置きを。
+  `
   return (
     <div className='App'>
       <CssLink />
@@ -80,7 +88,14 @@ Programing: OS, Compiler, Transpiler, CLI Editor
             <div className="Title">
               <div className="animate__animated animate__fadeInUp" >
                 <Center w="full" h="full">
-                  <Box align="left">
+                  <Box align="center">  
+                    <Box align="left"> 
+                    <h2 className="Work">
+                     Who am i? 
+                    </h2>
+                      <Icon/>
+                    <Work>{jikosyoukai}</Work>
+
                     <h2 className="Work">
                       Works
                     </h2>
@@ -91,6 +106,7 @@ Programing: OS, Compiler, Transpiler, CLI Editor
                       align="center"
                     />
                     <Work>{workText}</Work>
+                    </Box>
                   </Box>
                 </Center>
               </div>
