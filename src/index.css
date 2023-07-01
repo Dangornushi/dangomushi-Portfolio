@@ -12,7 +12,6 @@ code {
   background-color: black;
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
 .Icon-img {
 	width:150px;
 	height:150px;
@@ -32,6 +31,11 @@ code {
 }
 
 .Title {
+  font-family: Quicksand;
+  color: rgb(117, 255, 37);
+}
+
+.SelfIntroduction {
   font-family: Quicksand;
   color: rgb(117, 255, 37);
 }

@@ -9,8 +9,7 @@ import {
 	Flex,
 	Menu,
 	MenuItem,
-	MenuList,
-	MenuButton,
+	MenuList, MenuButton,
 	IconButton,
 	useColorModeValue
 } from '@chakra-ui/react'

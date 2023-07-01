@@ -33,13 +33,14 @@ const Logo = () => {
               onMouseEnter={handleMouseEnter} 
               onMouseLeave={handleMouseLeave}
           >	 
-            <img src={isHovered ? hoverPrintImg : footPrintImg} width={40} height={80} alt="Image" /> 
+	    <img src={isHovered ? hoverPrintImg : footPrintImg} width={40} height={80} alt="Image" /> 
             <Text
-						color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-						fontFamily='M PLUS Rounded 1c'
-						fontWeight="bold"
-						ml={3}>
-						Dangomushi Yusei Yomota			
+		color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+		fontFamily='M PLUS Rounded 1c'
+		fontWeight="bold"
+		ml={3}
+	    >
+		Dangomushi Yusei Yomota			
             </Text>
           </LogoBox>
 		</Link>
