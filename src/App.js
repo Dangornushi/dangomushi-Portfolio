@@ -14,6 +14,7 @@ import {
 } from '@chakra-ui/react'
 import Img from './assets/images/Dangomushi_icon.png'
 import SchwarzImg from './assets/images/schwarz.png'
+import Navbar from './components/Navbar.js'
 
 function Icon() {
   return (
@@ -70,10 +71,11 @@ Programing: OS, Compiler, Transpiler, CLI Editor
   `
   return (
     <div className='App'>
-      <CssLink />
+      <Navbar />
       <Flex h={h - 200} justify='center' align='center' >
         <Icon />
       </Flex>
+      <CssLink />
       <Center align='center'>
         <VStack>
           <div class="circle"></div>
