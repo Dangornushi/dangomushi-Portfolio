@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/dangomushi-Portfolio/static/css/main.31ff1d6e.css",
-    "main.js": "/dangomushi-Portfolio/static/js/main.cc1e7806.js",
+    "main.css": "/dangomushi-Portfolio/static/css/main.eed14523.css",
+    "main.js": "/dangomushi-Portfolio/static/js/main.0456008f.js",
     "static/js/787.b94a327f.chunk.js": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js",
     "static/media/schwarz.png": "/dangomushi-Portfolio/static/media/schwarz.55fa9e21a39260a68bf9.png",
+    "static/media/dangomushi_2_hovbar.png": "/dangomushi-Portfolio/static/media/dangomushi_2_hovbar.66f2548589c03f8544cc.png",
     "static/media/quicksand-latin-600.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-600.6891aedf32783ef69334.woff",
     "static/media/quicksand-latin-500.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-500.e16bfdc463d3fa68fe5b.woff",
     "static/media/quicksand-latin-400.woff": "/dangomushi-Portfolio/static/media/quicksand-latin-400.558969494c5e2743f1cf.woff",
@@ -15,13 +16,15 @@
     "static/media/quicksand-latin-500.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-500.4ff6e5b9ccdb25199651.woff2",
     "static/media/quicksand-latin-700.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-700.e38cff2ded151dda276f.woff2",
     "static/media/quicksand-latin-300.woff2": "/dangomushi-Portfolio/static/media/quicksand-latin-300.c21933f51b34fd58090f.woff2",
+    "static/media/dangomushi_hovbar.png": "/dangomushi-Portfolio/static/media/dangomushi_hovbar.8d1220a3933ba3ef58b0.png",
+    "static/media/twitter_icon.png": "/dangomushi-Portfolio/static/media/twitter_icon.8ab3ccb10024cdbc3951.png",
     "index.html": "/dangomushi-Portfolio/index.html",
-    "main.31ff1d6e.css.map": "/dangomushi-Portfolio/static/css/main.31ff1d6e.css.map",
-    "main.cc1e7806.js.map": "/dangomushi-Portfolio/static/js/main.cc1e7806.js.map",
+    "main.eed14523.css.map": "/dangomushi-Portfolio/static/css/main.eed14523.css.map",
+    "main.0456008f.js.map": "/dangomushi-Portfolio/static/js/main.0456008f.js.map",
     "787.b94a327f.chunk.js.map": "/dangomushi-Portfolio/static/js/787.b94a327f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31ff1d6e.css",
-    "static/js/main.cc1e7806.js"
+    "static/css/main.eed14523.css",
+    "static/js/main.0456008f.js"
   ]
 }
