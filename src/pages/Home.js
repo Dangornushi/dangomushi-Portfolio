@@ -1,23 +1,15 @@
 import '../index.css';
 import { React, useRef } from 'react'
-import Button from '@mui/material/Button'
 import {
-  Text,
-  useColorModeValue,
-  Container,
   Box,
-  Center,
-  Flex,
   Heading,
   VStack,
-  HStack,
 } from '@chakra-ui/react'
 import Img from '../assets/images/Dangomushi_icon.png'
-import SchwarzImg from '../assets/images/schwarz.png'
-import Navbar from '../components/Navbar.js'
-import Works from './Works.jsx'
 import { useInView } from 'react-intersection-observer';
 import 'animate.css';
+import twitter_icon from '../assets/images/twitter_icon.png';
+import github_icon from '../assets/images/github_icon.png';
 
 const whoAmI = `
 限りなく東京に近い埼玉に在住の年齢・職業不詳の謎の生き物。
@@ -49,35 +41,41 @@ const Icon = () => {
   );
 }
 
-const component = ({ msg }) => {
-  const texts = msg.split(/(\n)/).map((item, index) => {
-    return (
-      <React.Fragment key={index}>
-        { item.match(/\n/) ? <br /> : item }
-      </React.Fragment>
-    );
-  });
-  return <div>{texts}</div>;
+const MainData = () => {
+  return (
+    <>
+      <Box w="60vw" h="100vw">
+        <section id="whoAmI">
+            <div class="Title" align="left"> 
+              <h2>Who am I?</h2> 
+              {whoAmI} 
+            </div>   
+          <img src={twitter_icon} width={40} height={40} />
+          <img src={github_icon} width={40} height={40} />
+      </section>
+    </Box>
+  </>
+  )
 }
 
 const Home = () => {
   const { ref, inView } = useInView({
     // オプション
     rootMargin: '-200px', // ref要素が現れてから50px過ぎたら
-    triggerOnce: true, ggerOnce: true, // 最初の一度だけ実行
   });
 
 
   return (
 	<>
 	<div>
-        <div style={{ height: '2000px', backgroundColor: 'blue' }}>contents</div>
       {/* refを与えた要素がウインドウ内に現れるとinViewがtrueになります */}
-      <div ref={ref} style={{ height: '300px' }}>
+      <div ref={ref} style={{ height: '200px' }}>
         {inView && (
-          <div className="animate__animated animate__fadeInUp" >
-            <p>黄色の要素が出現！</p>
+          <>
+          <div className="animate__animated animate__fadeInUp" align="center" >
+            <MainData/> 
           </div>
+          </>
         )}
       </div>
     </div>
