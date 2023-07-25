@@ -36,8 +36,7 @@ function Icon() {
 }
 
 function CssLink() {
-  return (
-    <div>
+  return ( <div>
       <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css" />
       <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-1-4/css/9-1-4.css" />
     </div>
@@ -55,6 +54,13 @@ const PoyoPoyo = ( ) => {
         </VStack>
       </Center>
 	);
+}
+
+function ScrollWindow(elem) {
+            var element = document.getElementById(elem);
+            var rect = element.getBoundingClientRect();
+            var elemtop = rect.top + window.pageYOffset;
+            document.documentElement.scrollTop = elemtop;
 }
 
 function App() {
@@ -80,6 +86,6 @@ function App() {
 
 export default App;
 
-/*
-      */
+{/*
 
+*/}

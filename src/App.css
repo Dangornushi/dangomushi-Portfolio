@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* 透明度を0から開始 */
+  }
+  to {
+    opacity: 1; /* 透明度を1にする（フェードイン完了） */
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease; /* 1秒かけてフェードインする（ease関数で緩やかなアニメーション） */
+}
