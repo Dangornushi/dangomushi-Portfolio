@@ -45,7 +45,7 @@ const Icon = () => {
 const MainData = () => {
   return (
      
-      <Box w="100vw" h="50vw" display="flex" justifyContent="center" alignItems="center">
+      <Box w="100vw" display="flex" justifyContent="center" alignItems="center">
         <Box w="60vw">
         <section id="whoAmI">
             <div class="Title" align="left"> 
