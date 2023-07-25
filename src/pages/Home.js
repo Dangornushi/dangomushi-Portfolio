@@ -46,7 +46,7 @@ const MainData = () => {
   return (
      
       <Box w="100vw" h="50vw" display="flex" justifyContent="center" alignItems="center">
-        <Box w="60vw">
+        <Box w="40vw">
         <section id="whoAmI">
             <div class="Title" align="left"> 
               <h2>Who am I?</h2> 
@@ -59,12 +59,6 @@ const MainData = () => {
     </Box>
   )
 }
-function ScrollWindow(elem) {
-            var element = document.getElementById(elem);
-            var rect = element.getBoundingClientRect();
-            var elemtop = rect.top + window.pageYOffset;
-            document.documentElement.scrollTop = elemtop;
-}
 
 const Home = () => {
   const { ref, inView } = useInView({
@@ -74,10 +68,7 @@ const Home = () => {
 
   return (
 	<>
-
-    <div className="fadeIn"> 
         <MainData/>
-    </div>
 	</>
   );
 }
