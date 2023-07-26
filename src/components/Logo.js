@@ -40,7 +40,7 @@ const Logo = () => {
 		fontWeight="bold"
 		ml={3}
 	    >
-		Dangomushi Yusei Yomota			
+		Dangomushi			
             </Text>
           </LogoBox>
 		</Link>
